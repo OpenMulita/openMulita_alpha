@@ -1,0 +1,499 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN""http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>sistema_acciones</title>
+		<link rel="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+	</head>
+<script>
+function asd() {
+	parent.document.title="sistema_acciones";
+}
+</script>
+
+	<body onload="asd();">
+
+		<!-- ========== START OF NAVBAR ========== -->
+		<table border="0" width="100%" cellpadding="1" cellspacing="0">
+			<tr>
+				<td colspan="3" class="NavBarCell1">
+					<table border="0" cellpadding="0" cellspacing="3">
+						<tr align="center" valign="top">
+							<td class="NavBarCell1">
+								<a href="../overview-summary.html">Overview</a>&nbsp;
+							</td>
+							<td class="NavBarCell1">
+								<a href="package-summary.html">Object type</a>&nbsp;
+							</td>
+							<td class="NavBarCell1Rev"> &nbsp;
+								Table&nbsp;
+							</td>
+							<td class="NavBarCell1">
+								<a href="../help-doc.html">Help</a>&nbsp;
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="NavBarCell2">
+					&nbsp;<b>PREV Table</b>&nbsp;&nbsp;
+					&nbsp;<a HREF="1.html" ><b>NEXT Table</b></a>&nbsp;&nbsp;
+				</td>
+				<td class="NavBarCell2">
+					<a href="../index.html" target="_top">FRAMES</a>
+					&nbsp;&nbsp;&nbsp;
+					<a href="0.html" target="_top">NO FRAMES</a>
+					&nbsp;&nbsp;&nbsp;
+					<script>
+					<!--
+						if(window==top) {
+							document.writeln('<a href="../allclasses.html" target="">All Objects</a>');
+						}
+					//-->
+					</script>
+					<noscript>
+						<a href="../allclasses.html" target="">All Objects</a>
+					</noscript>
+				</td>
+			</tr>
+		</table>
+		<!-- =========== END OF NAVBAR =========== -->
+
+		<hr>
+		<a name="main"></a>
+		<h2>Table   sistema_acciones</h2>
+		<hr>
+
+
+<dl>
+	<dt><b>Physical Name:</b></dt>
+		<dd>sistema_acciones<br><br></dd>
+</dl>
+
+<dl>
+	<dt><b>Constraint:</b></dt>
+		<dd><br><br></dd>
+</dl>
+
+<pre style="font-size:1em;">
+Esta tabla guarda la inforacion de las distintas acciones que se pueden realizar en el sistema
+y la relacion que existe entre los modulos, las gestiones y las acciones
+</pre>
+
+<p>
+
+<!-- ======== Attribute ======== -->
+
+<a name="attribute_summary"></a>
+
+<table border="1" cellpadding="3" cellspacing="0" width="100%" class="AttributeTable">
+	<tr class="TableHeadingColor">
+		<th colspan="7">Attribute Summary</th>
+	</tr>
+	<tr class="TableSubHeadingColor">
+		<th>PK</th>
+		<th>FK</th>
+		<th>Logical Name</th>
+		<th>Physical Name</th>
+		<th>Type</th>
+		<th>UNIQUE</th>
+		<th>NOT NULL</th>
+	</tr>
+	<tr>
+	<tr>
+	<td align="center"><img src="../image/icons/pkey.gif">&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td><a href="#128">sa_idAccion</a>&nbsp;</td>
+	<td>sa_idAccion&nbsp;</td>
+	<td>int(5)&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">NOT NULL&nbsp;</td>
+</tr>
+<tr>
+	<td align="center">&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td><a href="#129">sa_nombreAccion</a>&nbsp;</td>
+	<td>sa_nombreAccion&nbsp;</td>
+	<td>varchar(100)&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">NOT NULL&nbsp;</td>
+</tr>
+<tr>
+	<td align="center">&nbsp;</td>
+	<td align="center"><img src="../image/icons/foreign_key.gif">&nbsp;</td>
+	<td><a href="#130">sa_idModulo</a>&nbsp;</td>
+	<td>sa_idModulo&nbsp;</td>
+	<td>int(4)&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">NOT NULL&nbsp;</td>
+</tr>
+<tr>
+	<td align="center">&nbsp;</td>
+	<td align="center"><img src="../image/icons/foreign_key.gif">&nbsp;</td>
+	<td><a href="#131">sa_idGestion</a>&nbsp;</td>
+	<td>sa_idGestion&nbsp;</td>
+	<td>int(5)&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">NOT NULL&nbsp;</td>
+</tr>
+<tr>
+	<td align="center">&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td><a href="#132">sa_parametroAccion</a>&nbsp;</td>
+	<td>sa_parametroAccion&nbsp;</td>
+	<td>varchar(40)&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">NOT NULL&nbsp;</td>
+</tr>
+<tr>
+	<td align="center">&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td><a href="#133">sa_descripcionAccion</a>&nbsp;</td>
+	<td>sa_descripcionAccion&nbsp;</td>
+	<td>text&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">&nbsp;</td>
+</tr>
+
+	</tr>
+</table>
+
+<p>
+
+<!-- ========== FOREIGN KEY =========== -->
+
+<a name="foreign_key"><!-- --></a>
+<table border="1" cellpadding="3" cellspacing="0" width="100%" class="AttributeTable">
+	<tr class="TableHeadingColor">
+		<th colspan="7">Foreign Key</th>
+	</tr>
+	<tr class="TableSubHeadingColor">
+		<th width="12">Attribute</th>
+		<th width="28%">Referenced Table</th>
+		<th width="12%">Referenced Key</th>
+		<th width="12%">ON UPDATE</th>
+		<th width="12%">ON DELETE</th>
+		<th width="12%">Cardinality of parent</th>
+		<th width="12%">Cardinality of child</th>
+	</tr>
+	<tr>
+	<td><a href="#130">sa_idModulo&nbsp;</a></td>
+	<td><a href="../table/7.html">sistema_modulos&nbsp;</a></td>
+	<td><a href="../table/7.html#134">sm_idModulo&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#131">sa_idGestion&nbsp;</a></td>
+	<td><a href="../table/4.html">sistema_gestiones&nbsp;</a></td>
+	<td><a href="../table/4.html#135">sg_idGestion&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+
+</table>
+
+<p>
+
+<!-- ========== REFERENCE KEY =========== -->
+
+<a name="reference_key"><!-- --></a>
+<table border="1" cellpadding="3" cellspacing="0" width="100%" class="AttributeTable">
+	<tr class="TableHeadingColor">
+		<th colspan="7">Referenced Key</th>
+	</tr>
+	<tr class="TableSubHeadingColor">
+		<th width="12">Attribute</th>
+		<th width="28%">Table</th>
+		<th width="12%">Foreign Key</th>
+		<th width="12%">ON UPDATE</th>
+		<th width="12%">ON DELETE</th>
+		<th width="12%">Cardinality of parent</th>
+		<th width="12%">Cardinality of child</th>
+	</tr>
+	<tr>
+	<td><a href="#128">sa_idAccion&nbsp;</a></td>
+	<td><a href="../table/15.html">sistema_usuarios_categorias_permisos&nbsp;</a></td>
+	<td><a href="../table/15.html#136">sucp_idAccion&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#128">sa_idAccion&nbsp;</a></td>
+	<td><a href="../table/16.html">sistema_usuarios_categorias_permisos_historial&nbsp;</a></td>
+	<td><a href="../table/16.html#137">sucph_idAccion&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#128">sa_idAccion&nbsp;</a></td>
+	<td><a href="../table/18.html">sistema_usuarios_permisos&nbsp;</a></td>
+	<td><a href="../table/18.html#138">sup_idAccion&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#128">sa_idAccion&nbsp;</a></td>
+	<td><a href="../table/19.html">sistema_usuarios_permisos_historial&nbsp;</a></td>
+	<td><a href="../table/19.html#139">suph_idAccion&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#128">sa_idAccion&nbsp;</a></td>
+	<td><a href="../table/20.html">sistema_usuarios_transaccion&nbsp;</a></td>
+	<td><a href="../table/20.html#140">sut_idAccion&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+
+</table>
+
+<p>
+
+<!-- ========== Complex Unique Key =========== -->
+
+<a name="complex_unique_key"><!-- --></a>
+<table border="1" cellpadding="3" cellspacing="0" width="100%" class="AttributeTable">
+	<tr class="TableHeadingColor">
+		<th colspan="1">Complex Unique Key</th>
+	</tr>
+	<tr class="TableSubHeadingColor">
+		<th>&nbsp;</th>
+		
+	</tr>
+	
+</table>
+
+
+
+<p>
+
+<!-- ========== INDEX SUMMARY =========== -->
+
+<a name="index_summary"><!-- --></a>
+<table border="1" cellpadding="3" cellspacing="0" width="100%" class="AttributeTable">
+	<tr class="TableHeadingColor">
+		<th colspan="3">Index Summary</th>
+	</tr>
+	<tr class="TableSubHeadingColor">
+		<th>Index Name</th>
+		<th>Type</th>
+		<th>UNIQUE</th>
+	</tr>
+	
+</table>
+
+<p>
+
+
+
+
+
+<p>
+
+<!-- ============ ATTRIBUTE DETAIL =========== -->
+
+<a name="attribute_detail"></a>
+<table border="1" cellpadding="3" cellspacing="0" width="100%" class="AttributeTable">
+	<tr class="TableHeadingColor">
+		<th>Attribute Detail</th>
+	</tr>
+</table>
+
+<a name="128"></a>
+<h3><img src="../image/icons/pkey.gif">  sa_idAccion</h3>
+
+<dl>
+	<dd>sa_idAccion
+	<p>
+	<dd><pre>Es el identificador de la accion que se puede realizar en el sistema</pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>TRUE<br></dt>
+		<dt><b>Type : </b>int(5)<br></dt>
+		<dt><b>AUTO INCREMENT : </b>TRUE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+<a name="129"></a>
+<h3>  sa_nombreAccion</h3>
+
+<dl>
+	<dd>sa_nombreAccion
+	<p>
+	<dd><pre>Esta tabla contiene los nombre de los permisos </pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>TRUE<br></dt>
+		<dt><b>Type : </b>varchar(100)<br></dt>
+		<dt><b>AUTO INCREMENT : </b>FALSE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+<a name="130"></a>
+<h3> <img src="../image/icons/foreign_key.gif"> sa_idModulo</h3>
+
+<dl>
+	<dd>sa_idModulo
+	<p>
+	<dd><pre>Es el identicador de modulo</pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>TRUE<br></dt>
+		<dt><b>Type : </b>int(4)<br></dt>
+		<dt><b>AUTO INCREMENT : </b>FALSE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+<a name="131"></a>
+<h3> <img src="../image/icons/foreign_key.gif"> sa_idGestion</h3>
+
+<dl>
+	<dd>sa_idGestion
+	<p>
+	<dd><pre>Es el identificador de la gestion</pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>TRUE<br></dt>
+		<dt><b>Type : </b>int(5)<br></dt>
+		<dt><b>AUTO INCREMENT : </b>FALSE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+<a name="132"></a>
+<h3>  sa_parametroAccion</h3>
+
+<dl>
+	<dd>sa_parametroAccion
+	<p>
+	<dd><pre>Es el parametro y la accion a ejecutar</pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>TRUE<br></dt>
+		<dt><b>Type : </b>varchar(40)<br></dt>
+		<dt><b>AUTO INCREMENT : </b>FALSE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+<a name="133"></a>
+<h3>  sa_descripcionAccion</h3>
+
+<dl>
+	<dd>sa_descripcionAccion
+	<p>
+	<dd><pre>Este campo contiene la descripcion de las acciones del sistema</pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>FALSE<br></dt>
+		<dt><b>Type : </b>text<br></dt>
+		<dt><b>AUTO INCREMENT : </b>FALSE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+
+
+
+
+		<!-- ========== START OF NAVBAR ========== -->
+		<table border="0" width="100%" cellpadding="1" cellspacing="0">
+			<tr>
+				<td colspan="3" class="NavBarCell1">
+					<table border="0" cellpadding="0" cellspacing="3">
+						<tr align="center" valign="top">
+							<td class="NavBarCell1">
+								<a href="../overview-summary.html">Overview</a>&nbsp;
+							</td>
+							<td class="NavBarCell1">
+								<a href="package-summary.html">Object type</a>&nbsp;
+							</td>
+							<td class="NavBarCell1Rev"> &nbsp;
+								Table&nbsp;
+							</td>
+							<td class="NavBarCell1">
+								<a href="../help-doc.html">Help</a>&nbsp;
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="NavBarCell2">
+					&nbsp;<b>PREV Table</b>&nbsp;&nbsp;
+					&nbsp;<a HREF="1.html" ><b>NEXT Table</b></a>&nbsp;&nbsp;
+				</td>
+				<td class="NavBarCell2">
+					<a href="../index.html" target="_top">FRAMES</a>
+					&nbsp;&nbsp;&nbsp;
+					<a href="0.html" target="_top">NO FRAMES</a>
+					&nbsp;&nbsp;&nbsp;
+					<script>
+					<!--
+						if(window==top) {
+							document.writeln('<a href="../allclasses.html" target="">All Objects</a>');
+						}
+					//-->
+					</script>
+					<noscript>
+						<a href="../allclasses.html" target="">All Objects</a>
+					</noscript>
+				</td>
+			</tr>
+		</table>
+		<!-- =========== END OF NAVBAR =========== -->
+
+		<hr>
+
+	</body>
+</HTML>

@@ -1,0 +1,973 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN""http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>sistema_usuarios</title>
+		<link rel="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
+	</head>
+<script>
+function asd() {
+	parent.document.title="sistema_usuarios";
+}
+</script>
+
+	<body onload="asd();">
+
+		<!-- ========== START OF NAVBAR ========== -->
+		<table border="0" width="100%" cellpadding="1" cellspacing="0">
+			<tr>
+				<td colspan="3" class="NavBarCell1">
+					<table border="0" cellpadding="0" cellspacing="3">
+						<tr align="center" valign="top">
+							<td class="NavBarCell1">
+								<a href="../overview-summary.html">Overview</a>&nbsp;
+							</td>
+							<td class="NavBarCell1">
+								<a href="package-summary.html">Object type</a>&nbsp;
+							</td>
+							<td class="NavBarCell1Rev"> &nbsp;
+								Table&nbsp;
+							</td>
+							<td class="NavBarCell1">
+								<a href="../help-doc.html">Help</a>&nbsp;
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="NavBarCell2">
+					&nbsp;<a HREF="9.html" ><b>PREV Table</b></a>&nbsp;&nbsp;
+					&nbsp;<a HREF="11.html" ><b>NEXT Table</b></a>&nbsp;&nbsp;
+				</td>
+				<td class="NavBarCell2">
+					<a href="../index.html" target="_top">FRAMES</a>
+					&nbsp;&nbsp;&nbsp;
+					<a href="10.html" target="_top">NO FRAMES</a>
+					&nbsp;&nbsp;&nbsp;
+					<script>
+					<!--
+						if(window==top) {
+							document.writeln('<a href="../allclasses.html" target="">All Objects</a>');
+						}
+					//-->
+					</script>
+					<noscript>
+						<a href="../allclasses.html" target="">All Objects</a>
+					</noscript>
+				</td>
+			</tr>
+		</table>
+		<!-- =========== END OF NAVBAR =========== -->
+
+		<hr>
+		<a name="main"></a>
+		<h2>Table   sistema_usuarios</h2>
+		<hr>
+
+
+<dl>
+	<dt><b>Physical Name:</b></dt>
+		<dd>sistema_usuarios<br><br></dd>
+</dl>
+
+<dl>
+	<dt><b>Constraint:</b></dt>
+		<dd><br><br></dd>
+</dl>
+
+<pre style="font-size:1em;">
+Esta tabla se encarga de administra los usuarios que funcionan en el 
+sistema y la informacion de los mismo
+</pre>
+
+<p>
+
+<!-- ======== Attribute ======== -->
+
+<a name="attribute_summary"></a>
+
+<table border="1" cellpadding="3" cellspacing="0" width="100%" class="AttributeTable">
+	<tr class="TableHeadingColor">
+		<th colspan="7">Attribute Summary</th>
+	</tr>
+	<tr class="TableSubHeadingColor">
+		<th>PK</th>
+		<th>FK</th>
+		<th>Logical Name</th>
+		<th>Physical Name</th>
+		<th>Type</th>
+		<th>UNIQUE</th>
+		<th>NOT NULL</th>
+	</tr>
+	<tr>
+	<tr>
+	<td align="center"><img src="../image/icons/pkey.gif">&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td><a href="#176">su_idUsuario</a>&nbsp;</td>
+	<td>su_idUsuario&nbsp;</td>
+	<td>int(10)&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">NOT NULL&nbsp;</td>
+</tr>
+<tr>
+	<td align="center">&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td><a href="#238">su_nombreUsuario</a>&nbsp;</td>
+	<td>su_nombreUsuario&nbsp;</td>
+	<td>varchar(30)&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">NOT NULL&nbsp;</td>
+</tr>
+<tr>
+	<td align="center">&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td><a href="#239">su_mailUsuario</a>&nbsp;</td>
+	<td>su_mailUsuario&nbsp;</td>
+	<td>varchar(50)&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">NOT NULL&nbsp;</td>
+</tr>
+<tr>
+	<td align="center">&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td><a href="#240">su_claveUsuario</a>&nbsp;</td>
+	<td>su_claveUsuario&nbsp;</td>
+	<td>text&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">NOT NULL&nbsp;</td>
+</tr>
+<tr>
+	<td align="center">&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td><a href="#241">su_imagenUsuario</a>&nbsp;</td>
+	<td>su_imagenUsuario&nbsp;</td>
+	<td>varchar(10)&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">&nbsp;</td>
+</tr>
+<tr>
+	<td align="center">&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td><a href="#242">su_descripcionUsuario</a>&nbsp;</td>
+	<td>su_descripcionUsuario&nbsp;</td>
+	<td>text&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">&nbsp;</td>
+</tr>
+<tr>
+	<td align="center">&nbsp;</td>
+	<td align="center"><img src="../image/icons/foreign_key.gif">&nbsp;</td>
+	<td><a href="#155">su_idEstado</a>&nbsp;</td>
+	<td>su_idEstado&nbsp;</td>
+	<td>int(3)&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">NOT NULL&nbsp;</td>
+</tr>
+<tr>
+	<td align="center">&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td><a href="#243">su_fechaIngreso</a>&nbsp;</td>
+	<td>su_fechaIngreso&nbsp;</td>
+	<td>datetime&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">NOT NULL&nbsp;</td>
+</tr>
+<tr>
+	<td align="center">&nbsp;</td>
+	<td align="center"><img src="../image/icons/foreign_key.gif">&nbsp;</td>
+	<td><a href="#244">su_idUsuarioIngreso</a>&nbsp;</td>
+	<td>su_idUsuarioIngreso&nbsp;</td>
+	<td>int(10)&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">NOT NULL&nbsp;</td>
+</tr>
+<tr>
+	<td align="center">&nbsp;</td>
+	<td align="center"><img src="../image/icons/foreign_key.gif">&nbsp;</td>
+	<td><a href="#228">su_idTipoEdicion</a>&nbsp;</td>
+	<td>su_idTipoEdicion&nbsp;</td>
+	<td>int(3)&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">NOT NULL&nbsp;</td>
+</tr>
+<tr>
+	<td align="center">&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td><a href="#245">su_fechaEdicion</a>&nbsp;</td>
+	<td>su_fechaEdicion&nbsp;</td>
+	<td>datetime&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">NOT NULL&nbsp;</td>
+</tr>
+<tr>
+	<td align="center">&nbsp;</td>
+	<td align="center"><img src="../image/icons/foreign_key.gif">&nbsp;</td>
+	<td><a href="#246">su_idUsuarioEdito</a>&nbsp;</td>
+	<td>su_idUsuarioEdito&nbsp;</td>
+	<td>int(10)&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">NOT NULL&nbsp;</td>
+</tr>
+<tr>
+	<td align="center">&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td><a href="#247">su_motivoUsuario</a>&nbsp;</td>
+	<td>su_motivoUsuario&nbsp;</td>
+	<td>text&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">&nbsp;</td>
+</tr>
+<tr>
+	<td align="center">&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td><a href="#248">su_poder</a>&nbsp;</td>
+	<td>su_poder&nbsp;</td>
+	<td>enum('desarrollador','administrador','estandar','tester')&nbsp;</td>
+	<td align="center">&nbsp;</td>
+	<td align="center">NOT NULL&nbsp;</td>
+</tr>
+
+	</tr>
+</table>
+
+<p>
+
+<!-- ========== FOREIGN KEY =========== -->
+
+<a name="foreign_key"><!-- --></a>
+<table border="1" cellpadding="3" cellspacing="0" width="100%" class="AttributeTable">
+	<tr class="TableHeadingColor">
+		<th colspan="7">Foreign Key</th>
+	</tr>
+	<tr class="TableSubHeadingColor">
+		<th width="12">Attribute</th>
+		<th width="28%">Referenced Table</th>
+		<th width="12%">Referenced Key</th>
+		<th width="12%">ON UPDATE</th>
+		<th width="12%">ON DELETE</th>
+		<th width="12%">Cardinality of parent</th>
+		<th width="12%">Cardinality of child</th>
+	</tr>
+	<tr>
+	<td><a href="#155">su_idEstado&nbsp;</a></td>
+	<td><a href="../table/3.html">sistema_estados&nbsp;</a></td>
+	<td><a href="../table/3.html#147">se_idEstado&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#244">su_idUsuarioIngreso&nbsp;</a></td>
+	<td><a href="../table/10.html">sistema_usuarios&nbsp;</a></td>
+	<td><a href="../table/10.html#176">su_idUsuario&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#228">su_idTipoEdicion&nbsp;</a></td>
+	<td><a href="../table/9.html">sistema_tipo_edicion&nbsp;</a></td>
+	<td><a href="../table/9.html#177">ste_idTipoEdicion&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#246">su_idUsuarioEdito&nbsp;</a></td>
+	<td><a href="../table/10.html">sistema_usuarios&nbsp;</a></td>
+	<td><a href="../table/10.html#176">su_idUsuario&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+
+</table>
+
+<p>
+
+<!-- ========== REFERENCE KEY =========== -->
+
+<a name="reference_key"><!-- --></a>
+<table border="1" cellpadding="3" cellspacing="0" width="100%" class="AttributeTable">
+	<tr class="TableHeadingColor">
+		<th colspan="7">Referenced Key</th>
+	</tr>
+	<tr class="TableSubHeadingColor">
+		<th width="12">Attribute</th>
+		<th width="28%">Table</th>
+		<th width="12%">Foreign Key</th>
+		<th width="12%">ON UPDATE</th>
+		<th width="12%">ON DELETE</th>
+		<th width="12%">Cardinality of parent</th>
+		<th width="12%">Cardinality of child</th>
+	</tr>
+	<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/4.html">sistema_gestiones&nbsp;</a></td>
+	<td><a href="../table/4.html#174">sg_idUsuarioEdito&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/4.html">sistema_gestiones&nbsp;</a></td>
+	<td><a href="../table/4.html#171">sg_idUsuarioIngreso&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/5.html">sistema_gestiones_historial&nbsp;</a></td>
+	<td><a href="../table/5.html#187">sgh_idUsuarioEdito&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/6.html">sistema_login&nbsp;</a></td>
+	<td><a href="../table/6.html#194">sl_idUsuario&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/6.html">sistema_login&nbsp;</a></td>
+	<td><a href="../table/6.html#199">sl_idUsuarioIngreso&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/6.html">sistema_login&nbsp;</a></td>
+	<td><a href="../table/6.html#202">sl_idUsuarioEdito&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/7.html">sistema_modulos&nbsp;</a></td>
+	<td><a href="../table/7.html#210">sm_idUsuarioEdito&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/8.html">sistema_modulos_historial&nbsp;</a></td>
+	<td><a href="../table/8.html#221">smh_idUsuarioEdito&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/10.html">sistema_usuarios&nbsp;</a></td>
+	<td><a href="../table/10.html#244">su_idUsuarioIngreso&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/10.html">sistema_usuarios&nbsp;</a></td>
+	<td><a href="../table/10.html#246">su_idUsuarioEdito&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/11.html">sistema_usuarios_asociacion_categorias&nbsp;</a></td>
+	<td><a href="../table/11.html#249">suac_idUsuarioEdito&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/11.html">sistema_usuarios_asociacion_categorias&nbsp;</a></td>
+	<td><a href="../table/11.html#250">suac_idUsuarioIngreso&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/11.html">sistema_usuarios_asociacion_categorias&nbsp;</a></td>
+	<td><a href="../table/11.html#251">suac_idUsuario&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/12.html">sistema_usuarios_asociacion_categorias_historial&nbsp;</a></td>
+	<td><a href="../table/12.html#252">suach_idusuarioEdito&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/12.html">sistema_usuarios_asociacion_categorias_historial&nbsp;</a></td>
+	<td><a href="../table/12.html#253">suach_idUsuario&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/13.html">sistema_usuarios_categorias&nbsp;</a></td>
+	<td><a href="../table/13.html#254">suc_idUsuarioEdito&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/13.html">sistema_usuarios_categorias&nbsp;</a></td>
+	<td><a href="../table/13.html#255">suc_idUsuarioIngreso&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/14.html">sistema_usuarios_categorias_historial&nbsp;</a></td>
+	<td><a href="../table/14.html#256">such_idUsuarioEdito&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/15.html">sistema_usuarios_categorias_permisos&nbsp;</a></td>
+	<td><a href="../table/15.html#257">sucp_idUsuarioIngreso&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/15.html">sistema_usuarios_categorias_permisos&nbsp;</a></td>
+	<td><a href="../table/15.html#258">sucp_idUsuarioEdito&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/16.html">sistema_usuarios_categorias_permisos_historial&nbsp;</a></td>
+	<td><a href="../table/16.html#259">sucph_idUsuarioEdito&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/17.html">sistema_usuarios_historial&nbsp;</a></td>
+	<td><a href="../table/17.html#260">suh_idUsuario&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/17.html">sistema_usuarios_historial&nbsp;</a></td>
+	<td><a href="../table/17.html#261">suh_idUsuarioEdito&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/18.html">sistema_usuarios_permisos&nbsp;</a></td>
+	<td><a href="../table/18.html#262">sup_idUsuarioEdito&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/18.html">sistema_usuarios_permisos&nbsp;</a></td>
+	<td><a href="../table/18.html#263">sup_idUsuario&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/18.html">sistema_usuarios_permisos&nbsp;</a></td>
+	<td><a href="../table/18.html#264">sup_idUsuarioIngreso&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/19.html">sistema_usuarios_permisos_historial&nbsp;</a></td>
+	<td><a href="../table/19.html#265">suph_idUsuarioEdito&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/19.html">sistema_usuarios_permisos_historial&nbsp;</a></td>
+	<td><a href="../table/19.html#266">suph_idUsuario&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+<tr>
+	<td><a href="#176">su_idUsuario&nbsp;</a></td>
+	<td><a href="../table/20.html">sistema_usuarios_transaccion&nbsp;</a></td>
+	<td><a href="../table/20.html#267">sut_idUsuario&nbsp;</a></td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">RESTRICT&nbsp;</td>
+	<td align="center">1&nbsp;</td>
+	<td align="center">1..n&nbsp;</td>
+</tr>
+
+</table>
+
+<p>
+
+<!-- ========== Complex Unique Key =========== -->
+
+<a name="complex_unique_key"><!-- --></a>
+<table border="1" cellpadding="3" cellspacing="0" width="100%" class="AttributeTable">
+	<tr class="TableHeadingColor">
+		<th colspan="1">Complex Unique Key</th>
+	</tr>
+	<tr class="TableSubHeadingColor">
+		<th>&nbsp;</th>
+		
+	</tr>
+	
+</table>
+
+
+
+<p>
+
+<!-- ========== INDEX SUMMARY =========== -->
+
+<a name="index_summary"><!-- --></a>
+<table border="1" cellpadding="3" cellspacing="0" width="100%" class="AttributeTable">
+	<tr class="TableHeadingColor">
+		<th colspan="3">Index Summary</th>
+	</tr>
+	<tr class="TableSubHeadingColor">
+		<th>Index Name</th>
+		<th>Type</th>
+		<th>UNIQUE</th>
+	</tr>
+	
+</table>
+
+<p>
+
+
+
+
+
+<p>
+
+<!-- ============ ATTRIBUTE DETAIL =========== -->
+
+<a name="attribute_detail"></a>
+<table border="1" cellpadding="3" cellspacing="0" width="100%" class="AttributeTable">
+	<tr class="TableHeadingColor">
+		<th>Attribute Detail</th>
+	</tr>
+</table>
+
+<a name="176"></a>
+<h3><img src="../image/icons/pkey.gif">  su_idUsuario</h3>
+
+<dl>
+	<dd>su_idUsuario
+	<p>
+	<dd><pre>Es el identificador de los usuarios</pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>TRUE<br></dt>
+		<dt><b>Type : </b>int(10)<br></dt>
+		<dt><b>AUTO INCREMENT : </b>TRUE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+<a name="238"></a>
+<h3>  su_nombreUsuario</h3>
+
+<dl>
+	<dd>su_nombreUsuario
+	<p>
+	<dd><pre></pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>TRUE<br></dt>
+		<dt><b>Type : </b>varchar(30)<br></dt>
+		<dt><b>AUTO INCREMENT : </b>FALSE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+<a name="239"></a>
+<h3>  su_mailUsuario</h3>
+
+<dl>
+	<dd>su_mailUsuario
+	<p>
+	<dd><pre>Es el mail de le usuario</pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>TRUE<br></dt>
+		<dt><b>Type : </b>varchar(50)<br></dt>
+		<dt><b>AUTO INCREMENT : </b>FALSE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+<a name="240"></a>
+<h3>  su_claveUsuario</h3>
+
+<dl>
+	<dd>su_claveUsuario
+	<p>
+	<dd><pre>Es la clave de el usuario la misma siempre se encuentra cifrada</pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>TRUE<br></dt>
+		<dt><b>Type : </b>text<br></dt>
+		<dt><b>AUTO INCREMENT : </b>FALSE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+<a name="241"></a>
+<h3>  su_imagenUsuario</h3>
+
+<dl>
+	<dd>su_imagenUsuario
+	<p>
+	<dd><pre>Es el nombre de la imagen que utiliza el usaurio</pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>FALSE<br></dt>
+		<dt><b>Type : </b>varchar(10)<br></dt>
+		<dt><b>AUTO INCREMENT : </b>FALSE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+<a name="242"></a>
+<h3>  su_descripcionUsuario</h3>
+
+<dl>
+	<dd>su_descripcionUsuario
+	<p>
+	<dd><pre>Este campo se utiliza para la descriopcion de el usuario</pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>FALSE<br></dt>
+		<dt><b>Type : </b>text<br></dt>
+		<dt><b>AUTO INCREMENT : </b>FALSE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+<a name="155"></a>
+<h3> <img src="../image/icons/foreign_key.gif"> su_idEstado</h3>
+
+<dl>
+	<dd>su_idEstado
+	<p>
+	<dd><pre>Es el identificador de el estado que se encuentra los registros</pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>TRUE<br></dt>
+		<dt><b>Type : </b>int(3)<br></dt>
+		<dt><b>AUTO INCREMENT : </b>FALSE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+<a name="243"></a>
+<h3>  su_fechaIngreso</h3>
+
+<dl>
+	<dd>su_fechaIngreso
+	<p>
+	<dd><pre>Es la fecha que se ingreo el registros y que usuario tiene permiso sobre el</pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>TRUE<br></dt>
+		<dt><b>Type : </b>datetime<br></dt>
+		<dt><b>AUTO INCREMENT : </b>FALSE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+<a name="244"></a>
+<h3> <img src="../image/icons/foreign_key.gif"> su_idUsuarioIngreso</h3>
+
+<dl>
+	<dd>su_idUsuarioIngreso
+	<p>
+	<dd><pre>Es el identificador de los usuarios</pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>TRUE<br></dt>
+		<dt><b>Type : </b>int(10)<br></dt>
+		<dt><b>AUTO INCREMENT : </b>FALSE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+<a name="228"></a>
+<h3> <img src="../image/icons/foreign_key.gif"> su_idTipoEdicion</h3>
+
+<dl>
+	<dd>su_idTipoEdicion
+	<p>
+	<dd><pre>Es el identificador de tipo de edicion</pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>TRUE<br></dt>
+		<dt><b>Type : </b>int(3)<br></dt>
+		<dt><b>AUTO INCREMENT : </b>FALSE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+<a name="245"></a>
+<h3>  su_fechaEdicion</h3>
+
+<dl>
+	<dd>su_fechaEdicion
+	<p>
+	<dd><pre>Es la fecha que se realizo el ultima modificacion</pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>TRUE<br></dt>
+		<dt><b>Type : </b>datetime<br></dt>
+		<dt><b>AUTO INCREMENT : </b>FALSE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+<a name="246"></a>
+<h3> <img src="../image/icons/foreign_key.gif"> su_idUsuarioEdito</h3>
+
+<dl>
+	<dd>su_idUsuarioEdito
+	<p>
+	<dd><pre>Es el identificador de los usuarios</pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>TRUE<br></dt>
+		<dt><b>Type : </b>int(10)<br></dt>
+		<dt><b>AUTO INCREMENT : </b>FALSE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+<a name="247"></a>
+<h3>  su_motivoUsuario</h3>
+
+<dl>
+	<dd>su_motivoUsuario
+	<p>
+	<dd><pre>Es el motivo por el cual se realizo el cambio en el registros</pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>FALSE<br></dt>
+		<dt><b>Type : </b>text<br></dt>
+		<dt><b>AUTO INCREMENT : </b>FALSE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+<a name="248"></a>
+<h3>  su_poder</h3>
+
+<dl>
+	<dd>su_poder
+	<p>
+	<dd><pre>Es el identificador que se utiliza para saber si un usuario es desarrollador o super administrador  importate por que todo el sistema se basa en esto</pre>
+	<p>
+	<dl>
+		<dt><b>UNIQUE : </b>FALSE<br></dt>
+		<dt><b>NOT NULL : </b>TRUE<br></dt>
+		<dt><b>Type : </b>enum('desarrollador','administrador','estandar','tester')<br></dt>
+		<dt><b>AUTO INCREMENT : </b>FALSE<br></dt>
+		<dt><b>Default Value : </b><br></dt>
+		<dt><b>Constraint : </b><br></dt>
+	</dl>
+</dl>
+
+<p>
+
+<hr>
+
+
+
+
+		<!-- ========== START OF NAVBAR ========== -->
+		<table border="0" width="100%" cellpadding="1" cellspacing="0">
+			<tr>
+				<td colspan="3" class="NavBarCell1">
+					<table border="0" cellpadding="0" cellspacing="3">
+						<tr align="center" valign="top">
+							<td class="NavBarCell1">
+								<a href="../overview-summary.html">Overview</a>&nbsp;
+							</td>
+							<td class="NavBarCell1">
+								<a href="package-summary.html">Object type</a>&nbsp;
+							</td>
+							<td class="NavBarCell1Rev"> &nbsp;
+								Table&nbsp;
+							</td>
+							<td class="NavBarCell1">
+								<a href="../help-doc.html">Help</a>&nbsp;
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="NavBarCell2">
+					&nbsp;<a HREF="9.html" ><b>PREV Table</b></a>&nbsp;&nbsp;
+					&nbsp;<a HREF="11.html" ><b>NEXT Table</b></a>&nbsp;&nbsp;
+				</td>
+				<td class="NavBarCell2">
+					<a href="../index.html" target="_top">FRAMES</a>
+					&nbsp;&nbsp;&nbsp;
+					<a href="10.html" target="_top">NO FRAMES</a>
+					&nbsp;&nbsp;&nbsp;
+					<script>
+					<!--
+						if(window==top) {
+							document.writeln('<a href="../allclasses.html" target="">All Objects</a>');
+						}
+					//-->
+					</script>
+					<noscript>
+						<a href="../allclasses.html" target="">All Objects</a>
+					</noscript>
+				</td>
+			</tr>
+		</table>
+		<!-- =========== END OF NAVBAR =========== -->
+
+		<hr>
+
+	</body>
+</HTML>
