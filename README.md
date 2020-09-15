@@ -40,31 +40,18 @@ Los principales parámetros son.
 
 
 
-## Descarga
-```
+## Descargar
+~~~
 $ git clone https://github.com/OpenMulita/openMulita_alpha.git
-```
+~~~
+
+## Instalación
+La instalación solo consiste en crear las tablas trigger y funciones MySQL que precisa el sistema.  
+Para realizar la instalación nos paramos en directorio principal y ejecutamos  ...
+
+~~~  
+$ php mulita instalacion 
+
+~~~
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
