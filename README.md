@@ -2,7 +2,7 @@
 
 OpenMulita fue creado por Damian Delgado.
 
-Es un framework en * PHP * y * MySql *. y se base en el patron de diseño MVC.
+Es un framework en * PHP * y * MySql *. Se basa en el patrón de diseño MVC.
 
 Es un sistema que funciona a traves del modulos. 
 
@@ -13,7 +13,7 @@ Los principales parámetros son.
 
 * 1) integracion. Marca si el camino va por un modulo o si va por algún sistema en particular 
 * 2) modulo: Es el modulo que se va a utilizar
-* 3) gestion: Va a marcar que controlar dentro el modulo se va a acceder
+* 3) gestion: Indica que controlador se va a utilizar
 * 4) accion: Indica que acción se va a realizar.
 * 5) formulario: Indica que vista se va a acceder. 
 * 6) idioma: Es el idioma activo dentro el sistema.
