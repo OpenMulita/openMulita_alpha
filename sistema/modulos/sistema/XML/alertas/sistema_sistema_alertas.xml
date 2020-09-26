@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idioma>
+	<sistema>
+		<sistema>
+			<alertas idioma='es'>
+				<moduloActivar>
+					<exitosa>Se activ&#243; el m&#243;dulo correctamente</exitosa>
+					<fallida>Error al activar el m&#243;dulo</fallida>
+					<permisos>No tienes permisos para activar el m&#243;dulo</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</moduloActivar>
+				<moduloDesactivar>
+					<exitosa>Se desactiv&#243; m&#243;dulo correctamente</exitosa>
+					<fallida>Error al desactivar el m&#243;dulo</fallida>
+					<permisos>No tiene permisos para desactivar el m&#243;dulo</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</moduloDesactivar>
+				<modulosListar>
+					<permisos>No tienes permisos para listar los m&#243;dulos</permisos>
+				</modulosListar>
+				<moduloFicha>
+					<permisos>No tienes permisos para entrar en la ficha del m&#243;dulo</permisos>
+				</moduloFicha>
+				<moduloFichaHistorial>
+					<permisos>No tienes permisos para entrar en la ficha del historial m&#243;dulo</permisos>
+				</moduloFichaHistorial>
+				<gestionActivar>
+					<exitosa>Se activ&#243; la gesti&#243;n correctamente</exitosa>
+					<fallida>Error al activar la gesti&#243;n</fallida>
+					<permisos>No tienes permisos para activar la gesti&#243;n</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</gestionActivar>
+				<gestionDesactivar>
+					<exitosa>Se desactiv&#243; la gesti&#243;n correctamente</exitosa>
+					<fallida>Error al desactivar la gesti&#243;n</fallida>
+					<permisos>No tienes permisos para desactivar la gesti&#243;n</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>				
+				</gestionDesactivar>
+				<gestionesListar>
+					<permisos>No tiene permisos para listar las gestiones</permisos>
+				</gestionesListar>
+				<gestionFicha>
+					<permisos>No tienes permisos ver la ficha de las gestiones</permisos>
+				</gestionFicha>
+				<gestionFichaHistorial>
+					<permisos>No tienes permisos para ver ficha del historial de la gesti&#243;n</permisos>
+				</gestionFichaHistorial>
+				<accionesListar>
+					<permisos>No tienes permisos para listar las acciones</permisos>
+				</accionesListar>
+			</alertas>
+			<alertas idioma='en'>
+			
+			</alertas>
+		</sistema>
+	</sistema>
+</idioma>
+

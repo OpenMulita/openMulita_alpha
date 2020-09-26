@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idioma>
+	<perfil>
+		<usuario>
+			<alertas idioma='es'>
+				<perfilModificar>
+					<exitosa>Se modifico el perfil Correctamente</exitosa>
+					<fallida>Error al registro Correctamente</fallida>
+					<permisos>No tiene Permisos para modificar el perfil</permisos>
+					<clave>No Clave no es valida</clave>
+				</perfilModificar>perfilModificar>
+				<perfilCambioClave>
+					<exitosa>Se Cambio la clave Correctamente</exitosa>
+					<fallida>Error al cambiar la clave</fallida>
+					<permisos>No tiene Permisos para cambiar clave</permisos>
+					<clave>No Clave no es valida</clave>
+					<errorClave>Error en la clave</errorClave>					
+				</perfilCambioClave>
+			</alertas>
+			<alertas idioma='en'>
+			
+			</alertas>
+		</usuario>
+	</perfil>
+</idioma>
+

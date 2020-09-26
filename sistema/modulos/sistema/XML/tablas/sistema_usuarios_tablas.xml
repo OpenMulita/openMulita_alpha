@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idioma>
+	<sistema>
+		<usuarios>
+			<tablas idioma='es'>
+				<usuariosListar>
+					<titulos>
+						<titulo>Listado de Usuarios</titulo>
+						<cambioEstado>Cambio de estado</cambioEstado>
+					</titulos>
+					<modals>
+						<activar>Activar Usuario</activar>
+						<desactivar>Desactivar Usuario</desactivar>
+					</modals>	
+					<columnas>
+						<idRegistro>N&#186;</idRegistro>
+						<campoUno>Nombre</campoUno>
+						<campoDos>Descripcion</campoDos>
+						<campoTres>Motivo</campoTres>
+						<campoCuatro>Estado</campoCuatro>
+						<ficha>Ficha</ficha>
+						<acciones>Acciones</acciones>
+					</columnas>	
+					<campos>
+						<clave>Clave</clave>
+						<motivo>Motivo</motivo>
+					</campos>					
+					<botones>
+						<ingresar>Ingresar Usuarios</ingresar>
+						<activar>Activar</activar>
+						<desactivar>Desactivar</desactivar>
+						<ficha>Ficha</ficha>
+						<noHabilitado>No habilitado</noHabilitado>
+						<aceptar>Aceptar</aceptar>
+					</botones>
+					<mensajes>
+						<motivoMensaje>El motivo tiene que tener un minimo de 10 caracteres y un maximo de 150</motivoMensaje>
+						<motivoAlerta>El motivo no cumple con los requerimientos</motivoAlerta>
+						<campoRequerido>Este campo es requerido</campoRequerido>
+					</mensajes>
+				</usuariosListar>
+				<usuariosListarHistorial>
+					<titulos>
+						<historial>Historial del Usuario</historial>
+					</titulos>
+					<columnas>
+						<idRegistro>N&#186;</idRegistro>
+						<campoUno>Tipo Edicion</campoUno>
+						<campoDos>fecha Edicion</campoDos>
+						<campoTres>usuario Edito</campoTres>
+						<campoCuatro>motivo</campoCuatro>
+						<ficha>Ficha</ficha>
+					</columnas>				
+					<botones>
+						<ficha>Ficha</ficha>
+					</botones>
+				</usuariosListarHistorial>
+				<usuariosListarAsociacionCategorias>
+					<titulos>
+						<titulo>Asociacion categoria</titulo>
+					</titulos>
+					<modals>
+						<activar>Activar Asociacion</activar>
+						<desactivar>Desactivar Asociacion</desactivar>
+					</modals>
+					<columnas>
+						<idRegistro>N&#186;</idRegistro>
+						<campoUno>Nombre Categorai</campoUno>
+						<campoDos>Usuario</campoDos>
+						<campoTres>Motivo</campoTres>
+						<campoCuatro>Estado</campoCuatro>
+						<ficha>innecesario</ficha>
+						<accion>Acciones</accion>
+					</columnas>				
+					<botones>
+						<ficha>Ficha</ficha>
+						<activar>Activar</activar>
+						<desactivar>Desactivar</desactivar>
+					</botones>
+					<extras>
+						<ficha></ficha>
+						<accionActivar>asociacionCategoriaActivar</accionActivar>
+						<accionDesactivar>asociacionCategoriaDesactivar</accionDesactivar>
+					</extras>
+				</usuariosListarAsociacionCategorias>
+				<usuariosListarPermisos>
+					<titulos>
+						<titulo>Permisos</titulo>
+					</titulos>
+					<modals>
+						<activar>Activar Permiso</activar>
+						<desactivar>Desactivar Permiso</desactivar>
+					</modals>	
+					<columnas>
+						<idRegistro>N&#186;</idRegistro>
+						<campoUno>Modulo</campoUno>
+						<campoDos>Gestion</campoDos>
+						<campoTres>Permiso</campoTres>
+						<campoCuatro>Estado</campoCuatro>
+						<ficha>Ficha</ficha>
+						<accion>Acciones</accion>
+					</columnas>				
+					<botones>
+						<ficha>Ficha</ficha>
+						<activar>Activar</activar>
+						<desactivar>Desactivar</desactivar>
+					</botones>
+					<extras>
+						<ficha></ficha>
+						<accionActivar>permisosActivar</accionActivar>
+						<accionDesactivar>permisosDesactivar</accionDesactivar>
+					</extras>
+				</usuariosListarPermisos>
+				<usuariosListarTransacciones>
+					<titulos>
+						<titulo>Permisos</titulo>
+					</titulos>
+					<modals>
+						<activar></activar>
+						<desactivar></desactivar>
+					</modals>	
+					<columnas>
+						<idRegistro>N&#186;</idRegistro>
+						<campoUno>Modulo</campoUno>
+						<campoDos>Gestion</campoDos>
+						<campoTres>Accion</campoTres>
+						<campoCuatro>Estado</campoCuatro>
+						<ficha>Ficha</ficha>
+						<accion>Acciones</accion>
+					</columnas>				
+					<botones>
+						<ficha>Ficha</ficha>
+						<activar>Activar</activar>
+						<desactivar>Desactivar</desactivar>
+					</botones>
+					<extras>
+						<ficha></ficha>
+						<accionActivar>permisosActivar</accionActivar>
+						<accionDesactivar>permisosDesactivar</accionDesactivar>
+					</extras>
+				</usuariosListarTransacciones>
+				<usuariosTransaccionesListar>
+					<titulos>
+						<titulo>Listado de Transacciones</titulo>
+						<cambioEstado>Cambio de estado</cambioEstado>
+					</titulos>
+					<modals>
+						<activar>Activar Usuario</activar>
+						<desactivar>Desactivar Usuario</desactivar>
+						<borrar>Borrar registro login</borrar>
+					</modals>	
+					<columnas>
+						<idRegistro>N&#186;</idRegistro>
+						<campoUno>Usuario</campoUno>
+						<campoDos>Modulo</campoDos>
+						<campoTres>Gestion</campoTres>
+						<campoCuatro>Accion</campoCuatro>
+						<campoCinco>Estado</campoCinco>
+						<ficha>Ficha</ficha>
+						<acciones>Acciones</acciones>
+					</columnas>	
+					<campos>
+						<clave>Clave</clave>
+						<motivo>Motivo</motivo>
+						<usuarios>Usuarios</usuarios>
+						<tipos>Tipos</tipos>
+						<fecha>Fecha</fecha>
+						<horas>Horas</horas>
+						<minutos>Minutos</minutos>
+					</campos>					
+					<botones>
+						<ficha>Ficha</ficha>
+						<noHabilitado>No habilitado</noHabilitado>
+					</botones>
+					<mensajes>
+						<motivoMensaje>El motivo tiene que tener un minimo de 10 caracteres y un maximo de 150</motivoMensaje>
+						<motivoAlerta>El motivo no cumple con los requerimientos</motivoAlerta>
+						<campoRequerido>Este campo es requerido</campoRequerido>
+					</mensajes>
+				</usuariosTransaccionesListar>
+				<usuariosLoginListar>
+					<titulos>
+						<titulo>Listado de Logins</titulo>
+						<cambioEstado>Cambio de estado</cambioEstado>
+						<ingresar>Ingresar Login</ingresar>
+						<modificar>Modiicar Login</modificar>
+					</titulos>
+					<modals>
+						<activar>Activar Usuario</activar>
+						<desactivar>Desactivar Usuario</desactivar>
+						<borrar>Borrar registro login</borrar>
+					</modals>	
+					<columnas>
+						<idRegistro>N&#186;</idRegistro>
+						<campoUno>Usuario</campoUno>
+						<campoDos>Fecha</campoDos>
+						<campoTres>Hora</campoTres>
+						<campoCuatro>Tipo</campoCuatro>
+						<campoCinco>Estado</campoCinco>
+						<ficha>Ficha</ficha>
+						<acciones>Acciones</acciones>
+					</columnas>	
+					<campos>
+						<clave>Clave</clave>
+						<motivo>Motivo</motivo>
+						<usuarios>Usuarios</usuarios>
+						<tipos>Tipos</tipos>
+						<fecha>Fecha</fecha>
+						<horas>Horas</horas>
+						<minutos>Minutos</minutos>
+					</campos>					
+					<botones>
+						<ingresar>Ingresar Login</ingresar>
+						<activar>Activar</activar>
+						<desactivar>Desactivar</desactivar>
+						<borrar>Borrar</borrar>
+						<ficha>Ficha</ficha>
+						<noHabilitado>No habilitado</noHabilitado>
+						<aceptar>Aceptar</aceptar>
+					</botones>
+					<mensajes>
+						<motivoMensaje>El motivo tiene que tener un minimo de 10 caracteres y un maximo de 150</motivoMensaje>
+						<motivoAlerta>El motivo no cumple con los requerimientos</motivoAlerta>
+						<campoRequerido>Este campo es requerido</campoRequerido>
+					</mensajes>
+				</usuariosLoginListar>
+			</tablas>	
+		</usuarios>
+	</sistema>
+</idioma>

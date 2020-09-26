@@ -1,0 +1,23 @@
+<?php
+
+
+if(isset($argv[1])){
+	
+	if($argv[1] == "instalacion" ){
+		echo("Estoy Instalalndo");
+		include("instalador/instalacion_mysql.php");
+	}elseif($argv[1] == ""){
+		$salida = shell_exec('php -S localhost:2015');	
+	}else{
+		$salida = shell_exec('php -S localhost:$argv[1]');	
+	}	
+	
+}else{
+	
+	echo("Corriendo mulita en 2015");
+	$salida = shell_exec('php -S localhost:2015');	
+}
+
+
+	
+?>

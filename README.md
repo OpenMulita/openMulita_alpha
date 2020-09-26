@@ -55,3 +55,11 @@ $ php mulita instalacion
 ~~~
 
 
+## Ejecucion
+Para realizar la instalación nos paramos en directorio principal y ejecutamos  ...
+
+~~~  
+$ php mulita 
+
+~~~
+Esto levanta un servidor localhost:2015 abrimos un navegador y colocamos esa dirección 

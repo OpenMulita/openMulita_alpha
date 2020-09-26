@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idioma>
+	<sistema>
+		<usuarios>
+			<alertas idioma='es'>
+				<usuariosIngresar>
+					<exitosa>Se ingres&#243; el usuario correctamente</exitosa>
+					<fallida>Error al ingresar usuario</fallida>
+					<permisos>No tiene permisos para ingresar el usuario</permisos>
+					<duplicado>El usuario ya existe</duplicado>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</usuariosIngresar>
+				<usuariosModificar>
+					<exitosa>Se guard&#243; el usuario correctamente</exitosa>
+					<fallida>Error al registro correctamente</fallida>
+					<permisos>No tiene permisos para registro correctamente</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</usuariosModificar>
+				<usuariosActivar>
+					<exitosa>Se activ&#243; el usuario correctamente</exitosa>
+					<fallida>Error al activar usuario</fallida>
+					<permisos>No tiene permisos para activar el usuario</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</usuariosActivar>
+				<usuariosDesactivar>
+					<exitosa>Se desactiv&#243; el Usuario Correctamente</exitosa>
+					<fallida>Error al Desactivar Usuario</fallida>
+					<permisos>No tiene permisos para desactivar el usuario</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</usuariosDesactivar>
+				<usuariosBorrar>
+					<exitosa>Se borr&#243; el usuario correctamente</exitosa>
+					<fallida>Error al borrar el usuario</fallida>
+					<permisos>No tiene permisos para borrar el usuario</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</usuariosBorrar>
+				<usuariosReactivar>
+					<exitosa>Se reactiv&#243; el usuario correctamente</exitosa>
+					<fallida>Error al reactivar el usuario</fallida>
+					<permisos>No tienes permisos para reactivar el usuario</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</usuariosReactivar>
+				<usuariosCambioClave>
+					<exitosa>Se cambi&#243; la clave correctamente</exitosa>
+					<fallida>Error al restablecer la clave</fallida>
+					<permisos>No tienes permisos para restablecer clave</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</usuariosCambioClave>
+				<usuariosResetearClave>
+					<exitosa>Se restableci&#243; la clave a clave1234</exitosa>
+					<fallida>Error al restablecer la clave</fallida>
+					<permisos>No tienes permisos para restablecer claves</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</usuariosResetearClave>				
+				
+				
+				<usuarioLoginIngresar>
+					<exitosa>Se ingreo la marca correctamente</exitosa>
+					<fallida>Error al ingresar la marca</fallida>
+					<permisos>No tienes permisos para ingresar marcas</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</usuarioLoginIngresar>
+				<usuarioLoginModificar>
+					<exitosa>Se modifico el registro</exitosa>
+					<fallida>Error modificar el registro clave</fallida>
+					<permisos>No tienes permisos para modificar el registros</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</usuarioLoginModificar>
+				<usuarioLoginBorrar>
+					<exitosa>Se borro el registro correctamente</exitosa>
+					<fallida>Error al borro el registro</fallida>
+					<permisos>No tienes permisos para borro el registros</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</usuarioLoginBorrar>				
+				
+				
+				
+				
+				<usuariosListar>
+					<permisos>No tiene permisos para listar usuarios</permisos>
+				</usuariosListar>		
+				<usuariosFicha>
+					<permisos>No tiene permisos para ingresar a la ficha de los usuarios</permisos>
+				</usuariosFicha>	
+				<usuarioFichaHistorial>
+					<permisos>No tiene permisos para ingresar a la ficha historia del usuario</permisos>
+				</usuarioFichaHistorial>	
+				<asociacionCategoriaIngresar>
+					<exitosa>Se ingres&#243; la asociaci&#243;n correctamente</exitosa>
+					<fallida>Error al ingresar la asociaci&#243;n</fallida>
+					<permisos>No tiene permisos para ingresar la asociaci&#243;n</permisos>
+					<duplicado>La asociaci&#243;n ya existe</duplicado>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</asociacionCategoriaIngresar>
+				<asociacionCategoriaActivar>
+					<exitosa>Se a activ&#243; la asociaci&#243;n correctamente</exitosa>
+					<fallida>Error al activar la asociaci&#243;n</fallida>
+					<permisos>No tiene permisos para activar la asociaci&#243;n</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</asociacionCategoriaActivar>
+				<asociacionCategoriaDesactivar>
+					<exitosa>Se desactiv&#243; la asociaci&#243;n correctamente</exitosa>
+					<fallida>Error al desactivar la asociaci&#243;n</fallida>
+					<permisos>No tiene permisos para desactivar la asociaci&#243;n</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</asociacionCategoriaDesactivar>
+				<permisosIngresar>
+					<exitosa>Se ingres&#243; el permiso correctamente</exitosa>
+					<fallida>Error al ingresar el permiso</fallida>
+					<duplicado>El usuario ya tiene ese permiso</duplicado>
+					<permisos>No tienes permisos para ingresar los permisos</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</permisosIngresar>
+				<permisosActivar>
+					<exitosa>Se activ&#243; el permiso correctamente</exitosa>
+					<fallida>Error al activar el permiso</fallida>
+					<permisos>No tienes permisos para activar permisos</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</permisosActivar>
+				<permisosDesactivar>
+					<exitosa>Se desactiv&#243; el permiso correctamente</exitosa>
+					<fallida>Error al desactivar el permiso</fallida>
+					<permisos>No tienes permisos para desactivar los permisos</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</permisosDesactivar>
+			</alertas>
+			<alertas idioma='en'>
+			
+			</alertas>
+		</usuarios>
+	</sistema>
+</idioma>
+

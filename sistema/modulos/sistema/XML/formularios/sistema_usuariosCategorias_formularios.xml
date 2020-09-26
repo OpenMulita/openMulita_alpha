@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+*
+* Las acciones dentro del formulario iene que permanecer en español por que asi estan en controlador
+*
+ -->
+<idioma>
+	<sistema>
+		<usuariosCategorias>
+			<formularios idioma='es'>	
+				<titulos>
+					<ingresarCategoria>Ingresar Categoria</ingresarCategoria>					
+					<fichaCategoria>Ficha Categoria N&#176;</fichaCategoria>
+					<modificarCategoria>Modificar Categoria N&#176;</modificarCategoria>
+					<fichaHistorial>Ficha Historial Categoria N&#176;</fichaHistorial>					
+					<categorias>Categorias</categorias>
+					<usuarios>Usuarios</usuarios>
+					<activarCategoria>Activar Categoria N&#176;</activarCategoria>
+					<desactivarCategoria>Desactivar Categoria N&#176;</desactivarCategoria>
+					<borrarCategoria>Borrar Categoria N&#176;</borrarCategoria>
+					<reactivarCategoria>Reactivar Categoria N&#176;</reactivarCategoria>
+					<asociacionUsuario>Asociar Usuario a la categoria</asociacionUsuario>
+					<permisos>Permisos</permisos>
+					<ingresarPermiso>Ingresar Permiso</ingresarPermiso>	
+				</titulos>
+				<pestanias>
+					<detalles>Detalles</detalles>
+					<historial>Historial</historial>
+					<usuarios>Usuarios</usuarios>
+					<permisos>Permisos</permisos>
+				</pestanias>
+				<subMenusTitulos>
+					<detalles>Datos de la categoria</detalles>					
+					<historial>Historial de usuario</historial>					
+					<ingresarCategorias>Ingresar Usuario</ingresarCategorias>
+					<asociacionCategoria>Tabla Asociacion Categorias</asociacionCategoria>
+				</subMenusTitulos>				
+				<subMenus>			
+					<historial>Historial de usuario</historial>					
+					<ingresarCategorias>Ingresar Categorias</ingresarCategorias>
+					<asociacionCategoria>Tabla Asociacion Categorias</asociacionCategoria>
+				</subMenus>
+				<campos>
+					<nombre>Nombre</nombre>				
+					<categoria>Categoria</categoria>					
+					<descripcion>Descripcion</descripcion>
+					<estado>Estado</estado>
+					<motivo>Motivo</motivo>
+					<clave>Clave</clave>
+					<fechaIngreso>Fecha Ingreso</fechaIngreso>
+					<usuarioIngreso>Usuario Ingreso</usuarioIngreso>
+					<fechaEdicion>Fecha Edito</fechaEdicion>
+					<usuarioEdito>Usuario Edito</usuarioEdito>
+					<tipoEdicion>Tipo Edicion</tipoEdicion>
+					<fechaEdicion>Fecha de Edicion</fechaEdicion>
+					<nombreUsuario>Usuario Edito</nombreUsuario>
+					<usuario>Usuario</usuario>
+					<modulo>Modulo</modulo>
+					<gestion>Gestion</gestion>
+					<permiso>Permiso</permiso>
+				</campos>
+				<columnas>
+					<idHstorial>ID Historial</idHstorial>
+					<tipoEdicion>Tipo Edicion</tipoEdicion>
+					<fechaEdicion>Fecha Edicion</fechaEdicion>
+					<usuarioEdito>Usuario Edito</usuarioEdito>
+					<idAsociacionCategoria>ID Asociacion</idAsociacionCategoria>
+					<estado>Estado</estado>
+					<categoria>Categoria</categoria>
+					<accion>Accion</accion>
+					<extra>Extra</extra>
+				</columnas>
+				<respuestas>
+					<nombre>El Nombre tiene que tener un m&#237;nimo de 5 caracteres y un m&#225;ximo de 50 caracteres alfa num&#233;rico</nombre>
+					<clave>La Clave tiene que tener un m&#237;nimo de 5 caracteres y un m&#225;ximo de 50 caracteres alfa num&#233;rico</clave>
+				</respuestas>
+				<botones>
+					<ingresar>Ingresar</ingresar>
+					<modificar>Modificar</modificar>
+					<guardar>Guardar</guardar>
+					<activar>Activar</activar>
+					<desactivar>Desactivar</desactivar>
+					<borrar>Borrar</borrar>
+					<reactivar>Reactivar</reactivar>
+					<lista>Lista Categoria</lista>
+					<atras>Atras</atras>
+					<aceptar>Aceptar</aceptar>
+				</botones>
+				<mensajes>
+					<areaMensaje>El texto tiene que tener un minimo de 10 caracteres y un maximo de 150</areaMensaje>
+					<areaAlerta>El texto no cumple con los requerimientos</areaAlerta>
+					<campoRequerido>Este campo es requerido</campoRequerido>
+					<campoClave>Las Claves no coinciden</campoClave>
+					<motivoMensaje>El motivo tiene que tener un m&#237;nimo de 10 y un m&#225;ximo de 150 caracteres y es obligatorio</motivoMensaje>
+					<nombreCategoria>El nombre de la categoria de usuarios debe tener un minimo de 2 y un maximo de 30 caracteres</nombreCategoria>
+				</mensajes>							
+			</formularios>
+		</usuariosCategorias>
+	</sistema>
+</idioma>
+

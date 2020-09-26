@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idioma>
+	<sistema>
+		<sistema>
+			<formularios idioma='es'>
+				<titulosM> 
+					<ficha>Ficha Modulo N&#186; </ficha>
+					<fichaHistorial>Ficha historial del Modulo N&#186; </fichaHistorial>
+					<activar>Activar Modulo</activar>
+					<desactivar>Desactivar Modulo</desactivar>				
+				</titulosM>
+				<titulosG> 
+					<ficha>Ficha Gestion N&#186; </ficha>
+					<fichaHistorial>Ficha Gestion Historial N&#186; </fichaHistorial>
+					<activar>Activar Gestion</activar>	
+					<desactivar>Desactivar Gestion</desactivar>	
+				</titulosG>
+				<pestanias>
+					<detalles>Detalles</detalles>
+					<historial>Historial</historial>
+					<gestiones>Gestiones</gestiones>
+					<acciones>Acciones</acciones>
+				</pestanias>
+				<subMenusTitulosM>
+					<datos>Datos del Modulo</datos>					
+					<historial>Historial del modulo</historial>	
+					<gestiones>Gestiones del modulo</gestiones>	
+					<acciones>Acciones del modulo</acciones>	
+				</subMenusTitulosM>
+				<subMenusTitulosG>
+					<datos>Datos de la Gestion</datos>					
+					<historial>Historial de gesti&#243;n</historial>					
+					<acciones>Acciones de la gestión</acciones>
+					<asociacionCategoria>Tabla asociaci&#243;n categor&#237;as</asociacionCategoria>
+				</subMenusTitulosG>				
+				<campos>	
+					<id>Ficha</id>
+					<gestion>Gestion</gestion>
+					<modulo>Modulo</modulo>
+					<nombre>Nombre</nombre>
+					<descripcion>Descripcion</descripcion>
+					<estado>Estado</estado>
+					<motivo>Motivo</motivo>
+					<clave>Clave</clave>
+					<tipoEdicion>Tipo Edicion</tipoEdicion>
+					<fechaEdicion>Fecha de Edicion</fechaEdicion>
+					<nombreUsuario>Usuario Edito</nombreUsuario>
+				</campos>
+				<botones>
+					<activar>Activar</activar>
+					<desactivar>Desactivar</desactivar>
+					<atras>Atr&#225;s</atras>
+					<aceptar>Aceptar</aceptar>
+					<modulos>Ir M&#243;dulo</modulos>
+					<listaModulos>Lista M&#243;dulos</listaModulos>
+					<listaGestiones>Lista Gestiones</listaGestiones>
+				</botones>
+				<mensajes>
+					<motivoMensaje>El motivo tiene que tener un m&#237;nimo de 10 caracteres y un m&#225;ximo de 150</motivoMensaje>
+					<motivoAlerta>El motivo no cumple con los requerimientos</motivoAlerta>
+					<campoRequerido>Este campo es requerido</campoRequerido>
+				</mensajes>
+			</formularios>
+			<formularios idioma='en'>
+				<titulos> 
+					<ficha>Module tab N&#186; </ficha>
+				</titulos>
+				<campos>
+					<nombre>Name</nombre>
+					<descripcion>Description</descripcion>
+					<estado>Estate</estado>
+					<motivo>Reason</motivo>
+					<tipoEdicion>Tipo Edicion</tipoEdicion>
+					<fechaEdicion>Fecha de Edicion</fechaEdicion>
+					<nombreUsuario>Nombre</nombreUsuario>
+				</campos>
+				<botones>
+					<activar>Enabled</activar>
+					<desactivar>Disabled</desactivar>
+				</botones>	
+			</formularios>
+		</sistema>	
+	</sistema>
+</idioma>

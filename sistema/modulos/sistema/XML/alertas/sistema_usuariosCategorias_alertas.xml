@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idioma>
+	<sistema>
+		<usuariosCategorias>
+			<alertas idioma='es'>
+				<usuariosCategoriasIngresar>
+					<exitosa>Se ingreso&#243; la categor&#237;a correctamente</exitosa>
+					<fallida>Error al ingresar la categor&#237;a</fallida>
+					<permisos>No tienes permisos para ingresar categor&#237;as</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</usuariosCategoriasIngresar>	
+				<usuariosCategoriasModificar>
+					<exitosa>Se guard&#243; la categor&#237;a correctamente</exitosa>
+					<fallida>Error al guardar la categor&#237;a</fallida>
+					<permisos>No tiene permisos para modificar la categor&#237;a</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</usuariosCategoriasModificar>	
+				<usuariosCategoriasActivar>
+					<exitosa>Se activ&#243; la categor&#237;a correctamente</exitosa>
+					<fallida>Error al activar la categor&#237;a</fallida>
+					<permisos>No tienes Permisos para activar la categor&#237;as</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</usuariosCategoriasActivar>
+				<usuariosCategoriasDesactivar>
+					<exitosa>Se desactiv&#243; la categor&#237;a correctamente</exitosa>
+					<fallida>Error al desactivar la categor&#237;a</fallida>
+					<permisos>No tienes permisos para desactivar las categor&#237;as</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</usuariosCategoriasDesactivar>
+				<usuariosCategoriasBorrar>
+					<exitosa>Se borr&#243; la categor&#237;a correctamente</exitosa>
+					<fallida>Error al borrar la categor&#237;a</fallida>
+					<permisos>No tienes permisos para borrar la categor&#237;as</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</usuariosCategoriasBorrar>	
+				<usuariosCategoriasReactivar>
+					<exitosa>Se reactiv&#243; la categor&#237;a correctamente</exitosa>
+					<fallida>Error al reactivar la categor&#237;a</fallida>
+					<permisos>No tienes permisos para reactivar las categor&#237;as</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</usuariosCategoriasReactivar>	
+				<usuariosCategoriasListar>
+					<permisos>No tienes permisos para listar las categor&#237;as  de usuarios</permisos>
+				</usuariosCategoriasListar>		
+				<usuariosCategoriasFicha>
+					<permisos>No tienes permisos para ingresar a la ficha de las categor&#237;as de los usuarios</permisos>
+				</usuariosCategoriasFicha>	
+				<usuariosCategoriasFichaHistorial>
+					<permisos>No tienes permisos para ingresar a la ficha historia de las categor&#237;as del usuario</permisos>
+				</usuariosCategoriasFichaHistorial>			
+				<asociacionCategoriaIngresar>
+					<exitosa>Se ingres&#243; la asociaci&#243;n correctamente</exitosa>
+					<fallida>Error al ingresar la asociaci&#243;n</fallida>
+					<permisos>No tiene permisos para ingresar la asociaci&#243;n</permisos>
+					<duplicado>La asociaci&#243;n ya existe</duplicado>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</asociacionCategoriaIngresar>
+				<asociacionCategoriaActivar>
+					<exitosa>Se activ&#243; la asociaci&#243;n correctamente</exitosa>
+					<fallida>Error al activar la asociaci&#243;n</fallida>
+					<permisos>No tienes permisos para activar la asociaci&#243;n</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</asociacionCategoriaActivar>
+				<asociacionCategoriaDesactivar>
+					<exitosa>Se desactiv&#243; la asociaci&#243;n correctamente</exitosa>
+					<fallida>Error al desactivar la asociaci&#243;n</fallida>
+					<permisos>No tiene permisos para  desactivar la asociaci&#243;n</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</asociacionCategoriaDesactivar>
+				<permisosIngresar>
+					<exitosa>Se ingres&#243; el permiso correctamente</exitosa>
+					<fallida>Error al ingresar el permiso</fallida>
+					<duplicado>la categor&#237;a ya tiene ese permiso</duplicado>
+					<permisos>No tienes permisos para ingresar los permisos</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</permisosIngresar>
+				<permisosActivar>
+					<exitosa>Se activ&#243; el permiso correctamente</exitosa>
+					<fallida>Error al activar el permiso</fallida>
+					<permisos>No tienes permisos para activar permisos</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</permisosActivar>
+				<permisosDesactivar>
+					<exitosa>Se desactiv&#243; el permiso correctamente</exitosa>
+					<fallida>Error al desactivar el permiso</fallida>
+					<permisos>No tienes permisos para desactivar los permisos</permisos>
+					<clave>La clave no es valida</clave>
+					<errorTransaccion>Se esta duplicando la transacci&#243;n</errorTransaccion>
+				</permisosDesactivar>
+			</alertas>
+			<alertas idioma='en'>
+			
+			</alertas>
+		</usuariosCategorias>
+	</sistema>
+</idioma>

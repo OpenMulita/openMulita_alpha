@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idioma>
+	<sistema>
+		<usuarios>
+			<tablas idioma='es'>
+				<usuariosTransaccionesListar>
+					<titulos>
+						<titulo>Transacciones de Usuarios</titulo>
+					</titulos>
+					<columnas>
+						<idRegistro>N&#186;</idRegistro>
+						<campoUno>Usuario</campoUno>
+						<campoDos>Modulo</campoDos>
+						<campoTres>Gestion</campoTres>
+						<campoCuatro>Accion</campoCuatro>
+						<estado>Estado</estado>
+						<detalle>Detalle</detalle>
+						<barra>Barra</barra>
+						<ficha>Ficha</ficha>
+						<acciones>Acciones</acciones>
+					</columnas>				
+					<botones>
+						<activar>Activar</activar>
+						<desactivar>Desactivar</desactivar>
+						<ficha>Ficha</ficha>
+						<noHabilitado>No habilitado</noHabilitado>
+					</botones>
+					<extras>
+						<ficha>usuariosFicha</ficha>
+						<accionActivar>activarUsuario</accionActivar>
+						<accionDesactivar>desactivarUsuario</accionDesactivar>
+					</extras>
+				</usuariosTransaccionesListar>
+			</tablas>	
+		</usuarios>
+	</sistema>
+</idioma>

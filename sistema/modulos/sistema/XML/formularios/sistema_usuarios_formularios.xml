@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idioma>
+	<sistema>
+		<usuarios>
+			<formularios idioma='es'>	
+				<titulos>
+					<fichaUsuario>Ficha Usuario N&#176;</fichaUsuario>
+					<ingresarUsuario>Ingresar Usuario</ingresarUsuario>					
+					<fichaCategoria>Ficha Categoria N&#176;</fichaCategoria>
+					<modificarCategoria>Modificar Categoria N&#176;</modificarCategoria>
+					<cambioClave>Cambio de clave</cambioClave>	
+					<perfil>Perfil Usuario</perfil>
+					<permisos>Permisos de Usuario</permisos>
+					<modificarPerfil>Modificar Perfil</modificarPerfil>
+					<fichaHistorial>Ficha Historial usuario N&#176;</fichaHistorial>					
+					<categorias>Categorias</categorias>
+					<activarUsuario>Activar usuario</activarUsuario>
+					<desactivarUsuario>Desactivar Usuario</desactivarUsuario>
+					<borrarUsuario>Borrar Usuario</borrarUsuario>
+					<reactivarUsuario>Reactivar Usuario</reactivarUsuario>	
+				</titulos>
+				<modals>
+					<ingresar>Ingresar Usuario</ingresar>
+					<modificar>Modificar Usuario</modificar>
+					<activar>Activar Usuario</activar>
+					<desactivar>Desactivar Usuario</desactivar>
+					<borrar>Borrar Usuario</borrar>
+					<reactivar>Reactivar Usuario</reactivar>
+					<restablecerClave>Restablecer Clave</restablecerClave>		
+					<ingresarCategorias>Ingresar Categorias</ingresarCategorias>
+					<ingresarPermiso>Ingresar Permiso</ingresarPermiso>										
+				</modals>
+				<pestanias>
+					<detalles>Detalles</detalles>
+					<historial>Historial</historial>
+					<categoria>Categoria</categoria>
+					<permisos>Permisos</permisos>
+				</pestanias>
+				<subMenusTitulos>
+					<detalles>Datos del usuario</detalles>					
+					<historial>Historial de usuario</historial>					
+					<ingresarCategorias>Ingresar Categorias</ingresarCategorias>
+					<asociacionCategoria>Tabla Asociacion Categorias</asociacionCategoria>
+					<transacciones>Transacciones</transacciones>
+				</subMenusTitulos>				
+				<subMenus>			
+					<historial>Historial de usuario</historial>					
+					<ingresarCategorias>Ingresar Categorias</ingresarCategorias>
+					<asociacionCategoria>Tabla Asociacion Categorias</asociacionCategoria>
+					<ingresarPermiso>Ingresar Permiso</ingresarPermiso>
+				</subMenus>
+				<campos>
+					<nombre>Nombre</nombre>
+					<mail>Mail</mail>
+					<clave>Clave</clave>
+					<confirmacion>Confirmar Clave</confirmacion>					
+					<categoria>Categorias</categoria>					
+					<descripcion>Descripcion</descripcion>
+					<estado>Estado</estado>
+					<motivo>Motivo</motivo>
+					<imagen>Imagen</imagen>
+					<fechaIngreso>Fecha Ingreso</fechaIngreso>
+					<usuarioIngreso>Usuario Ingreso</usuarioIngreso>
+					<fechaEdicion>Fecha Edito</fechaEdicion>
+					<usuarioEdito>Usuario Edito</usuarioEdito>
+					<claveActual>Clave Actual</claveActual>
+					<claveNueva>Clave Nueva</claveNueva>
+					<claveConfirmacion>Confirmar Clave Nueva</claveConfirmacion>
+					<tipoEdicion>Tipo Edicion</tipoEdicion>
+					<fechaEdicion>Fecha de Edicion</fechaEdicion>
+					<nombreUsuario>Usuario Edito</nombreUsuario>
+					<modulo>Modulo</modulo>
+					<gestion>Gestion</gestion>
+					<permiso>Permiso</permiso>
+				</campos>
+				<columnas>
+					<idHstorial>ID Historial</idHstorial>
+					<tipoEdicion>Tipo Edicion</tipoEdicion>
+					<fechaEdicion>Fecha Edicion</fechaEdicion>
+					<usuarioEdito>Usuario Edito</usuarioEdito>
+					<idAsociacionCategoria>ID Asociacion</idAsociacionCategoria>
+					<estado>Estado</estado>
+					<categoria>Categoria</categoria>
+					<accion>Accion</accion>
+					<extra>Extra</extra>
+				</columnas>
+				<respuestas>
+					<nombre>El Nombre tiene que tener un m&#237;nimo de 5 caracteres y un m&#225;ximo de 50 caracteres alfa num&#233;rico</nombre>
+					<clave>La Clave tiene que tener un m&#237;nimo de 5 caracteres y un m&#225;ximo de 50 caracteres alfa num&#233;rico</clave>
+				</respuestas>
+				<botones>
+					<ingresar>Ingresar</ingresar>
+					<modificar>Modificar</modificar>
+					<guardar>Guardar</guardar>
+					<activar>Activar</activar>
+					<desactivar>Desactivar</desactivar>
+					<borrar>Borrar</borrar>
+					<reactivar>Reactivar</reactivar>
+					<cambioClave>Cambio Clave</cambioClave>
+					<resetearClave>Restablecer Clave</resetearClave>
+					<lista>Lista Usuarios</lista>
+					<atras>Atras</atras>
+					<aceptar>Aceptar</aceptar>
+				</botones>
+				<mensajes>
+					<areaMensaje>El texto tiene que tener un minimo de 10 caracteres y un maximo de 150</areaMensaje>
+					<areaAlerta>El texto no cumple con los requerimientos</areaAlerta>
+					<campoRequerido>Este campo es requerido</campoRequerido>
+					<campoClave>Las Claves no coinciden</campoClave>
+					<motivoMensaje>El motivo tiene que tener un m&#237;nimo de 10 y un m&#225;ximo de 150 caracteres y es obligatorio</motivoMensaje>
+					<nombreUsuario>clave del usuario tiene que tener minimo 5 y un maximo de 30 caracteres Alfanumerico</nombreUsuario>
+					
+				</mensajes>						
+			</formularios>
+			<formularios idioma='en'>
+				<titulos>
+					<ingresar>Add User</ingresar>
+					<ficha>User sheet No.</ficha>
+					<modificar>User Edited No.</modificar>
+					<clave>Edite Password</clave>
+				</titulos>
+				<campos>
+					<nombre>Name</nombre>
+					<mail>Mail</mail>
+					<clave>Password</clave>
+					<confirmacion>Confir Password</confirmacion>					
+					<categoria>Category</categoria>					
+					<descripcion>description</descripcion>
+					<estado>Estate</estado>
+					<motivo>Reason</motivo>
+					<fechaIngreso>date Added</fechaIngreso>
+					<usuarioIngreso>user add</usuarioIngreso>
+					<fechaEdicion>date edition</fechaEdicion>
+					<usuarioEdito>user edition</usuarioEdito>
+					<claveActual>Password</claveActual>
+					<claveNueva>New PAssword</claveNueva>
+					<claveConfirmacion>Confirm new Password</claveConfirmacion>
+				</campos>
+				<respuestas>
+					<nombre>El Nombre tiene que tener un m&#237;nimo de 5 caracteres y un m&#225;ximo de 50 caracteres alfa num&#233;rico</nombre>
+					<clave>La Clave tiene que tener un m&#237;nimo de 5 caracteres y un m&#225;ximo de 50 caracteres alfa num&#233;rico</clave>
+				</respuestas>
+				<botones>
+					<ingresar>Add</ingresar>
+					<modificar>Edited</modificar>
+					<guardar>Save</guardar>
+					<activar>Activer</activar>
+					<desactivar>Deactivate</desactivar>
+					<borrar>Delete</borrar>
+					<reactivar>Reopen</reactivar>
+				</botones>			
+			</formularios>
+		</usuarios>
+	</sistema>
+</idioma>
+

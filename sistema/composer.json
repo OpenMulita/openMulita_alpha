@@ -1,0 +1,12 @@
+{
+    "name": "damis/_mulita_full",
+    "authors": [
+        {
+            "name": "Damian",
+            "email": "damian@openmulita.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.0"
+    }
+}
